@@ -13,7 +13,8 @@
   background-color: lightblue;
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-end;
+  min-height: 100px;
 }
 
 .logo {
@@ -27,8 +28,13 @@
 .logo .logo-img {
 }
 
+.main-box {
+  display: flex;
+  column-gap: 20px;
+}
+
 .menu {
-  background-color: lightcoral;
+  background-color: darkorchid;
 }
 
 .menu .menu-item {
@@ -37,19 +43,31 @@
 }
 .main {
   background-color: blue;
+  flex-grow: 4;
 }
 .article {
   background-color: red;
+  padding: 20px;
 }
 .related {
   background-color: purple;
   min-height: 200px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
 }
 .item {
   background-color: seagreen;
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
 }
 .aside {
   background-color: sandybrown;
+  flex-grow: 1;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
