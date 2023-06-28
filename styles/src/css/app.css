@@ -1,0 +1,33 @@
+.wrapper {
+  background-color: cornsilk;
+}
+
+.inner-box {
+  background-color: lightblue;
+  width: 100%;
+  max-width: 980px;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.logo {
+  background-color: lightgrey;
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+  display: inline-block;
+  align-self: center;
+}
+.logo .logo-img {
+}
+
+.menu {
+  background-color: lightcoral;
+}
+
+.menu .menu-item {
+  display: inline-block;
+  padding: 16px 10px;
+}
